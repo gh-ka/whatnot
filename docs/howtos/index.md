@@ -1,3 +1,3 @@
 # HowTos
 
-File: /howtos/index.md
+File: `doc/howtos/index.md`

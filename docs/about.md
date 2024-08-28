@@ -1,6 +1,6 @@
 # About this `WhatNot` thing
 
-File: /docs/about.md
+File: `/docs/about.md`
 
 This is a collection of unsorted writings accumilated as bits and pieces over (frankly, quite a long) time.
 As such, the site is work in progress and will grow as I process the material and, hopefully, create something new.
