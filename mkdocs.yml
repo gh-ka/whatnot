@@ -1,0 +1,19 @@
+site_name: WhatNot
+repo_url: https://github.com/gh-ka/whatnot
+repo_name: gh-ka/whatnot
+edit_uri: edit/main/docs/
+nav:
+  - 'Start Here': 'index.md'
+  - 'HowTos': 'howtos/index.md'
+  - 'About': 'about.md'
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      baselevel: 2
+      separator: "_"
+theme:
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
