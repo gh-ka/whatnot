@@ -17,8 +17,82 @@ nav:
 markdown_extensions:
   - toc:
       permalink: true
-      baselevel: 2
+      # baselevel: 2
       separator: "_"
+
+  # needed to use admonitions 
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  # needed to use annotaions
+  # https://squidfunk.github.io/mkdocs-material/reference/annotations/
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+
+  # turn links into buttons
+  # [Send :fontawesome-solid-paper-plane:](#){ .md-button }
+  - attr_list
+
+  # needed for codeblocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
+  # needed for content tabs
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  # just to be sure tables are enabled by default
+  - tables
+
+  # diagrams
+  # https://squidfunk.github.io/mkdocs-material/reference/diagrams/
+  # - pymdownx.superfences:
+  #   custom_fences:
+  #     - name: mermaid
+  #       class: mermaid
+  #       format: "!!python/name:pymdownx.superfences.fence_code_format"sti
+
+  - footnotes
+
+  # advanced formatting
+  # https://squidfunk.github.io/mkdocs-material/reference/formatting/
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  # grids
+  # https://squidfunk.github.io/mkdocs-material/reference/grids/
+  - attr_list
+  - md_in_html
+
+  # # icons and emojis
+  # - attr_list
+  # - pymdownx.emoji:
+  #     emoji_index: "!!python/name:material.extensions.emoji.twemoji"
+  #     emoji_generator: "!!python/name:material.extensions.emoji.to_svg"
+
+  # lists
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  # tooltips
+  # https://squidfunk.github.io/mkdocs-material/reference/tooltips/
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+
 plugins:
   - search
   - tags
@@ -35,8 +109,25 @@ plugins:
       categories_name: By Category
       categories_url_format: "{slug}"
       categories_toc: true
+  - blog:
+      blog_dir: writing
+      post_dir: writing/posts
+      blog_toc: true
+      post_date_format: full
+      post_url_format: "{date}/{slug}"
+      post_readtime_words_per_minute: 200
+      # archive_toc: true
+      archive_name: Entries By Time
+      # archive_date_format: MMMM, yyyy
+      # archive_url_format: "{date}"
+      categories_name: Entries by Category
+      # categories_url_format: "{slug}"
+      # categories_toc: true
+  - minify:
+      minify_html: true
 theme:
   name: material
+  # custom_dir: overrides
   palette:  
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -61,16 +152,66 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil 
     view: material/eye  
+
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+      annotation: material/arrow-right-circle
+
   features:
+    - navigation.expand    # ?
+    - navigation.indexes   # ?
+    - navigation.prune     # ?
+    
+    - navigation.sections
+
     - navigation.instant
     - navigation.instant.progress
+    - navigation.instant.prefetch
+
     - navigation.tracking
+
     - navigation.tabs         # tabs as content dividers
     - navigation.tabs.sticky  # tabs always visible
+
     - navigation.top          # show back-to-top button
     - navigation.footer
+    - navigation.indexes      # for blog indeces
+
+    - toc.follow              # ?
+    - announce.dismiss        # ?
+    - header.autohide
+
+    # for search options
     - search.suggest
     - search.highlight
     - search.share
+
+    # to enable seeing and editing files
     - content.action.edit
     - content.action.view
+
+    # to enable code block options
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+    # tab choice for the whole page
+    - content.tabs.link       
+
+    - content.footnote.tooltips
+    - content.tooltips
+
+   
+
