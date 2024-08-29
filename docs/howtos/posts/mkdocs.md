@@ -29,7 +29,7 @@ echo "Now in venv, updating pip"
 python.exe -m pip install --upgrade pip
 
 echo "Installing dependencies"
-pip install -r requirements-doc.txt
+pip install -r requirements.txt
 
 echo "Building mkdocs"
 mkdocs build
@@ -70,6 +70,8 @@ Next, on the local machine:
 ```bash
 git clone https://github.com/gh-ka/whatnot.git
 cd whatnot
+git config --local user.name <uname>
+git config --local user.email <email>
 python -m venv win_venv
 python.exe -m pip install --upgrade pip
 . win_venv/Scripts/activate
