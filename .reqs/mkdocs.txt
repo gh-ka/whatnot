@@ -15,3 +15,5 @@ mkdocs-minify-plugin
 
 # needed if vanigation does not strictly folow the default structure     
 mkdocs-redirects
+
+mkdocs-glightbox
