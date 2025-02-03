@@ -17,3 +17,5 @@ mkdocs-minify-plugin
 mkdocs-redirects
 
 mkdocs-glightbox
+
+minify_html
