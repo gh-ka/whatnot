@@ -225,9 +225,9 @@ plugins:
   #   repository: gh-ka/whatnot
   #   branch: main
   - glightbox
-  - minify_html 
-  # - minify:
-  #     minify_html: true
+  # - minify_html 
+  - minify:
+      minify_html: true
   - mkdocstrings:
       handlers:
         python:
