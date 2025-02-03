@@ -9,7 +9,7 @@ search:
 
 # Writing
 
-## Talks and Podcasts by jxnl
+## Talks and Podcasts by [jxnl](https://jxnl.co/writing/2024/01/01/whoami/)
 
 - [Keynote: Pydantic is all you need](https://www.youtube.com/watch?v=yj-wSRJwrrc&)
 - [Podcast: Weaviate](https://www.youtube.com/watch?v=higlHgYDc5E)

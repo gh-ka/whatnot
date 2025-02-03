@@ -1,0 +1,213 @@
+ $ python check_links.py
+Checking links in markdown files...
+
+Links found in docs\.index-example.md:
+  https://www.mkdocs.org
+
+Links found in docs\about.md:
+  ./howtos/index_howtos.md
+  ./writing/index_writing.md
+  ./reading/index.md
+  ./blog/index.md
+
+Links found in docs\index.md:
+
+  ./howtos/index.md
+  ./writing/index_writing.md
+  ./reading/index.md
+  ./blog/index.md
+
+Links found in docs\writing\index.md:
+  https://jxnl.co/writing/2024/01/01/whoami/
+  https://www.youtube.com/watch?v=yj-wSRJwrrc&
+  https://www.youtube.com/watch?v=higlHgYDc5E
+  https://www.youtube.com/watch?v=RuLTElrphnk
+  https://www.youtube.com/watch?v=rDP44EVpHTA
+  https://www.youtube.com/watch?v=5-5jf3_mvBg
+
+Links found in docs\howtos\posts\git_author.md:
+
+
+Links found in docs\howtos\posts\mkdocs.md:
+  https://github.com/squidfunk/mkdocs-material
+  https://squidfunk.github.io/mkdocs-material/plugins/requirements/image-processing/#cairo-graphics-windows
+  https://www.msys2.org/
+
+
+
+Links found in docs\writing\posts\2023-04-04-llmops.md:
+  https://jxnl.github.io/instructor/blog/2023/11/05/chain-of-density/
+
+Links found in docs\writing\posts\2023-09-17-rag.md:
+  https://maven.com/applied-llms/rag-playbook
+  https://jxnl.co
+  img/dumb_rag.png
+  https://new.computer
+  https://metaphor.systems
+  https://narohq.com
+  https://en.wikipedia.org/wiki/Query_understanding
+  img/query_understanding.png
+  https://metaphor.systems
+  img/meta.png
+  ./2024-02-28-levels-of-rag.md
+  ./2024-06-05-rag_plusplus.md
+  ./2024-01-19-stochastic-software.md
+  ./2023-04-04-llmops.md
+  ./2022-08-01-recsys-frameworks.md
+  https://github.com/jxnl/instructor
+
+
+Links found in docs\writing\posts\2023-11-02-aisummit-2023.md:
+  https://img.youtube.com/vi/yj-wSRJwrrc/0.jpg
+  https://www.youtube.com/watch?v=yj-wSRJwrrc
+  https://www.ai.engineer/summit
+  https://docs.pydantic.dev/latest/
+  https://youtu.be/yj-wSRJwrrc?si=vGMIqtTapbIN8SLz
+
+Links found in docs\writing\posts\2024-01-07-rag-inverted.md:
+  https://q7gjsgfstrp.typeform.com/ragcourse
+  https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales
+  https://q7gjsgfstrp.typeform.com/ragcourse
+
+Links found in docs\writing\posts\2024-01-08-learning.md:
+  https://jxnl.co/writing/2024/06/01/advice-to-young-people/
+
+
+
+  https://www.youtube.com/watch?v=pC_LFdmWHAU
+  https://twitter.com/jxnlco
+  https://www.buymeacoffee.com/jxnl
+
+Links found in docs\writing\posts\2024-02-05-lgtmk.md:
+  ./2023-09-17-rag.md
+  ./2024-01-07-rag-inverted.md
+  https://www.evidentlyai.com/ranking-metrics/ndcg-metric
+  https://en.wikipedia.org/wiki/Simpson%27s_paradox
+
+Links found in docs\writing\posts\2024-02-14-wandb-course.md:
+  https://www.wandb.courses/courses/steering-language-models
+  img/course.png
+
+Links found in docs\writing\posts\2024-02-20-strings.md:
+  https://hamel.dev/blog/posts/prompt/
+
+Links found in docs\writing\posts\2024-02-28-levels-of-rag.md:
+  https://maven.com/applied-llms/rag-playbook
+  https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics?utm_source=tldrwebdev
+
+
+Links found in docs\writing\posts\2024-05-11-low-hanging-fruit.md:
+  https://q7gjsgfstrp.typeform.com/ragcourse
+  https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/#case-study-1-metaphor-systems
+  https://lancedb.com/
+  https://q7gjsgfstrp.typeform.com/ragcourse
+
+Links found in docs\writing\posts\2024-05-22-improving-rag.md:
+  https://maven.com/applied-llms/rag-playbook
+  ./2023-09-17-rag.md
+  ./2024-01-07-rag-inverted.md
+  ./2024-02-28-levels-of-rag.md
+  https://maven.com/applied-llms/rag-playbook
+
+Links found in docs\writing\posts\2024-06-02-data-literacy.md:
+  https://en.wikipedia.org/wiki/Principal_component_analysis
+  https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding
+  https://en.wikipedia.org/wiki/Simpson%27s_paradox
+
+Links found in docs\writing\posts\2024-06-05-rag_plusplus.md:
+  https://media.geeksforgeeks.org/wp-content/uploads/20240419121413/Aim-of-SOP-(Standard-Operating-Procedure
+
+
+Links found in docs\writing\posts\2024-08-19-rag-flywheel.md:
+
+  https://maven.com/applied-llms/rag-playbook
+
+Links found in docs\writing\posts\2024-08-21-trade-off-tool-selection.md:
+  https://maven.com/applied-llms/rag-playbook
+  https://maven.com/applied-llms/rag-playbook
+  https://maven.com/applied-llms/rag-playbook
+
+Verifying links...
+❌  - Error: skipped
+✅ https://squidfunk.github.io/mkdocs-material/plugins/requirements/image-processing/#cairo-graphics-windows - Status: 200
+❌ img/meta.png - Error: skipped
+✅ https://q7gjsgfstrp.typeform.com/ragcourse - Status: 200
+✅ https://www.youtube.com/watch?v=higlHgYDc5E - Status: 200
+❌ ./blog/index.md - Error: skipped
+✅ https://en.wikipedia.org/wiki/Simpson%27s_paradox - Status: 200
+❌ https://media.geeksforgeeks.org/wp-content/uploads/20240419121413/Aim-of-SOP-(Standard-Operating-Procedure - Status: 403
+❌ img/query_understanding.png - Error: skipped
+❌ ./2024-02-28-levels-of-rag.md - Error: skipped
+❌ https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales - Status: 403
+✅ https://maven.com/applied-llms/rag-playbook - Status: 200
+✅ https://github.com/jxnl/instructor - Status: 200
+❌ ./2024-01-07-rag-inverted.md - Error: skipped
+✅ https://jxnl.co - Status: 200
+✅ https://www.wandb.courses/courses/steering-language-models - Status: 200
+✅ https://en.wikipedia.org/wiki/Principal_component_analysis - Status: 200
+✅ https://www.youtube.com/watch?v=rDP44EVpHTA - Status: 200
+✅ https://youtu.be/yj-wSRJwrrc?si=vGMIqtTapbIN8SLz - Status: 200
+❌ https://twitter.com/jxnlco - Status: 403
+❌ https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/#case-study-1-metaphor-systems - Status: 404
+✅ https://metaphor.systems - Status: 200
+✅ https://jxnl.co/writing/2024/06/01/advice-to-young-people/ - Status: 200
+✅ https://www.youtube.com/watch?v=yj-wSRJwrrc - Status: 200
+❌ img/dumb_rag.png - Error: skipped
+✅ https://docs.pydantic.dev/latest/ - Status: 200
+✅ https://www.ai.engineer/summit - Status: 200
+❌ https://jxnl.github.io/instructor/blog/2023/11/05/chain-of-density/ - Status: 404
+❌ ./writing/index_writing.md - Error: skipped
+✅ https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics?utm_source=tldrwebdev - Status: 200
+❌ ./howtos/index.md - Error: skipped
+❌ ./2022-08-01-recsys-frameworks.md - Error: skipped
+✅ https://www.youtube.com/watch?v=pC_LFdmWHAU - Status: 200
+❌ https://jxnl.co/writing/2024/01/01/whoami/ - Status: 404
+✅ https://www.youtube.com/watch?v=5-5jf3_mvBg - Status: 200
+❌ ./2023-09-17-rag.md - Error: skipped
+✅ https://lancedb.com/ - Status: 200
+✅ https://www.msys2.org/ - Status: 200
+✅ https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding - Status: 200
+✅ https://www.mkdocs.org - Status: 200
+✅ https://new.computer - Status: 200
+❌ ./2023-04-04-llmops.md - Error: skipped
+✅ https://www.youtube.com/watch?v=yj-wSRJwrrc& - Status: 200
+✅ https://www.evidentlyai.com/ranking-metrics/ndcg-metric - Status: 200
+❌ ./2024-06-05-rag_plusplus.md - Error: skipped
+✅ https://www.buymeacoffee.com/jxnl - Status: 200
+✅ https://en.wikipedia.org/wiki/Query_understanding - Status: 200
+❌ img/course.png - Error: skipped
+✅ https://narohq.com - Status: 200
+❌ ./2024-01-19-stochastic-software.md - Error: skipped
+✅ https://hamel.dev/blog/posts/prompt/ - Status: 200
+✅ https://github.com/squidfunk/mkdocs-material - Status: 200
+✅ https://img.youtube.com/vi/yj-wSRJwrrc/0.jpg - Status: 200
+✅ https://www.youtube.com/watch?v=RuLTElrphnk - Status: 200
+❌ ./howtos/index_howtos.md - Error: skipped
+❌ ./reading/index.md - Error: skipped
+
+Broken links found:
+-  (Status/Error: skipped)
+- img/meta.png (Status/Error: skipped)
+- ./blog/index.md (Status/Error: skipped)
+- https://media.geeksforgeeks.org/wp-content/uploads/20240419121413/Aim-of-SOP-(Standard-Operating-Procedure (Status/Error: 403)
+- img/query_understanding.png (Status/Error: skipped)
+- ./2024-02-28-levels-of-rag.md (Status/Error: skipped)
+- https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales (Status/Error: 403)
+- ./2024-01-07-rag-inverted.md (Status/Error: skipped)
+- https://twitter.com/jxnlco (Status/Error: 403)
+- https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/#case-study-1-metaphor-systems (Status/Error: 404)
+- img/dumb_rag.png (Status/Error: skipped)
+- https://jxnl.github.io/instructor/blog/2023/11/05/chain-of-density/ (Status/Error: 404)
+- ./writing/index_writing.md (Status/Error: skipped)
+- ./howtos/index.md (Status/Error: skipped)
+- ./2022-08-01-recsys-frameworks.md (Status/Error: skipped)
+- https://jxnl.co/writing/2024/01/01/whoami/ (Status/Error: 404)
+- ./2023-09-17-rag.md (Status/Error: skipped)
+- ./2023-04-04-llmops.md (Status/Error: skipped)
+- ./2024-06-05-rag_plusplus.md (Status/Error: skipped)
+- img/course.png (Status/Error: skipped)
+- ./2024-01-19-stochastic-software.md (Status/Error: skipped)
+- ./howtos/index_howtos.md (Status/Error: skipped)
+- ./reading/index.md (Status/Error: skipped)
+(.venv)
+14:21:06 /d/pyproj/whatnot (main*) $
